@@ -1,0 +1,9 @@
+.order-wrapper {
+  padding: 30px;
+}
+
+.order-loader {
+  position: relative;
+  margin-left: 50%;
+  margin-top: 50px;
+}
