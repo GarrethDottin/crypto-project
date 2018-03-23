@@ -1,7 +1,7 @@
 ## Installation
 
 ```bash
-git clone [repo]
+git clone https://github.com/GarrethDottin/crypto-project.git
 ```
 
 ```bash
