@@ -1,6 +1,10 @@
 ## Installation
 
 ```bash
+Open Terminal 
+```
+
+```bash
 git clone https://github.com/GarrethDottin/crypto-project.git
 ```
 
