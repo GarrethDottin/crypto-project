@@ -56,15 +56,11 @@ class Login extends React.Component {
         <div className="form-wrapper">
           <Form onSubmit={this.handleSubmit}>
             <FormGroup row>
-              <Label for="id" sm={2}>Order Id</Label>
-              <Col sm={10}>
-                <Input type="text" name="id" id="id" placeholder="Order Id" value={order.id}
+              <Col sm={12}>
+                <Input type="text" name="id" id="id" placeholder="Purchase Bitcoin" value={order.id}
                        onChange={this.handleChange} required/>
-              </Col>
-            </FormGroup>
-            <FormGroup check row>
-              <Col sm={{ size: 10, offset: 2 }}>
-                <Button type="submit">Search</Button>
+                <Button type="submit" className="custom-button">Order</Button>
+
               </Col>
             </FormGroup>
           </Form>
@@ -77,8 +73,8 @@ class Login extends React.Component {
             <Table striped bordered size="sm">
               <thead>
               <tr>
-                <th>Order Id</th>
-                <th>Amount</th>
+                <th> Bitcoin Amount</th>
+                <th>Cost</th>
               </tr>
               </thead>
               <tbody>
